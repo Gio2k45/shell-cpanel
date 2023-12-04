@@ -140,7 +140,7 @@ else {
 	// find drive letters
  	$v = explode("\\",$d); 
 	$v = $v[0]; 
-  $letters = '';
+	$letters = '';
  	foreach (range("A","Z") as $letter) 
  	{ 
 	  $bool = @is_dir($letter.":\\");
